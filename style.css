@@ -1,0 +1,38 @@
+ul{list-style: none;}
+
+h1{
+  font-family:Montserrat;
+}
+
+h2{
+  font-family:Oswald;
+}
+
+h3{
+  font-family:Nunito;
+}
+
+header{
+  border-radius: 10px;
+  background-color: antiquewhite;
+
+}
+
+body{
+  background-color: beige;
+}
+
+p{
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+textarea{
+  width: 478px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.stext{
+  border-radius: 10px;
+}
