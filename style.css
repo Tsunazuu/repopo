@@ -12,6 +12,10 @@ h3{
   font-family:Nunito;
 }
 
+p{
+  font-family: 'Hind', sans-serif;
+}
+
 header{
   border-radius: 10px;
   background-color: antiquewhite;
@@ -24,6 +28,11 @@ body{
 
 p{
   background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.edubutton{
+  background-color: pink;
   border-radius: 10px;
 }
 
