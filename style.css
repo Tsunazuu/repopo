@@ -27,6 +27,20 @@ header{
 
 }
 
+h1.headerpos{
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+h2.headerpos{
+  padding-bottom: 30px;
+}
+
+h3.headerpos{
+  padding-bottom: 60px
+}
+
+
 body{
   flex-wrap: wrap;
 }
@@ -62,6 +76,24 @@ textarea{
   flex-wrap: wrap;
 }
 
-.top-left{
+.eduText, .projText, .webText{
   font-family: 'Comfortaa';
+  padding: 15px;
+  position: relative;
+  display: block;
+  transition-duration: 0.5s;
+
 }
+
+.eduText:hover , .projText:hover, .webText:hover{
+  padding-top:80px;
+  transition-duration: 0.5s;
+
+}
+
+button.eduText, button.projText, button.webText{
+  background: none;
+  border: none;
+
+}
+
