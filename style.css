@@ -3,14 +3,17 @@ ul{list-style: none;}
 h1{
   font-family:Montserrat;
   font-size: 30px;
+  flex-wrap: wrap;
 }
 
 h2{
   font-family:Oswald;
+  flex-wrap: wrap;
 }
 
 h3{
   font-family:Nunito;
+  flex-wrap: wrap;
 }
 
 p{
@@ -19,30 +22,46 @@ p{
 
 header{
   border-radius: 10px;
-  background-color: antiquewhite;
+
+  flex-wrap: wrap;
 
 }
 
 body{
-  background-color: beige;
+  flex-wrap: wrap;
 }
 
 p{
-  background-color: antiquewhite;
   border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+footer{
+
+  border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 .edubutton{
-  background-color: pink;
+  padding: 5;
+  border: none;
+  background: none;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 textarea{
   width: 478px;
   height: 100px;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 .stext{
   border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.top-left{
+  font-family: 'Comfortaa';
 }
