@@ -1,5 +1,10 @@
 ul{list-style: none;}
 
+html{
+  scroll-behavior:smooth;
+  transition: ease-in-out;
+}
+
 h1{
   font-family:Montserrat;
   font-size: 30px;
@@ -59,7 +64,7 @@ h1.headerpos{
 }
 
 h2.headerpos{
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 h3.headerpos{
@@ -184,4 +189,44 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 10px;
+  left: 10px;
+  background: white;
+  overflow-x: hidden;
+  padding: 8px 0;
+  transition-duration: 0.5s;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  color: black;
+  display: block;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 140px;
+  font-size: 28px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
 }
