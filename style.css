@@ -1,46 +1,93 @@
-ul{list-style: none;}
+ul {
+  list-style: none;
+}
 
-html{
-  scroll-behavior:smooth;
+html {
+  scroll-behavior: smooth;
   transition: ease-in-out;
 }
 
-h1{
-  font-family:Montserrat;
+h1 {
+  font-family: Montserrat;
+  font-size: 40px;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-family: Oswald;
+  flex-wrap: wrap;
   font-size: 30px;
-  flex-wrap: wrap;
 }
 
-h2{
-  font-family:Oswald;
+h3 {
+  font-family: Nunito;
   flex-wrap: wrap;
+  font-size: 20px;
 }
 
-h3{
-  font-family:Nunito;
-  flex-wrap: wrap;
-}
-
-p{
+p {
   font-family: 'Hind', sans-serif;
+  border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 .p-pos {
   text-align: center;
   padding-bottom: 20px;
+  font-family: Montseratt;
 }
 
-header{
-  border-radius: 10px;
+.image-edit {
 
+  text-align: center;
+  font-size: 30px;
+  font-family: Montserrat;
+
+}
+
+.proj-edit {
+  font-size: 25px;
+  text-align: center;
+}
+
+.ty-edit {
+  text-align: center;
+  font-size: 30px;
+  font-family: Montserrat;
+  padding-bottom: 20px;
+}
+
+.query-text {
+  text-align: center;
+  font-size: 25px;
+  font-family: Montserrat;
+  padding-top: 50px;
+}
+
+.query-pos {
+  text-align: center;
+  font-size: 20px;
+}
+
+.submitbtn {
+  font-size: 25px;
+  font-family: 'Comfortaa';
+  border: none;
+  background: none;
+}
+
+header {
+  border-radius: 10px;
   flex-wrap: wrap;
 
 }
 
 .container-one {
+  display: flex;
   position: relative;
   left: 100px;
   padding: 200px;
+  flex-wrap: wrap;
 
 }
 
@@ -58,49 +105,64 @@ header{
 
 }
 
-h1.headerpos{
+h1.headerpos {
   padding-top: 40px;
   padding-bottom: 100px;
 }
 
-h2.headerpos{
+h2.headerpos {
   padding-bottom: 50px;
 }
 
-h3.headerpos{
+h3.headerpos {
   padding-bottom: 60px
 }
 
-body{
+body {
   flex-wrap: wrap;
   background-image: url("Images/idasg1BG.png")
 }
 
+.iglogo {
+  vertical-align: middle;
+}
 
-p{
+.igbutton {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+  font-family: Montserrat;
+  border: none;
+  background: none;
+}
+
+.igdiv {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+footer {
+
   border-radius: 10px;
   flex-wrap: wrap;
 }
 
-footer{
-
-  border-radius: 10px;
-  flex-wrap: wrap;
-}
-
-textarea{
+textarea {
   width: 478px;
   height: 100px;
   border-radius: 10px;
   flex-wrap: wrap;
 }
 
-.stext{
+.stext {
   border-radius: 10px;
   flex-wrap: wrap;
 }
 
-.eduText, .projText, .webText{
+.eduText,
+.projText,
+.webText {
   font-family: 'Comfortaa';
   padding: 15px;
   position: relative;
@@ -109,21 +171,25 @@ textarea{
 
 }
 
-.eduText:hover , .projText:hover, .webText:hover{
-  padding-top:70px;
+.eduText:hover,
+.projText:hover,
+.webText:hover {
+  padding-top: 70px;
   transition-duration: 0.5s;
 
 }
 
-button.eduText, button.projText, button.webText{
+button.eduText,
+button.projText,
+button.webText {
   background: none;
   border: none;
 
 }
 
-.return{
-  position: absolute;
-  top:3%;
+.return {
+  position: fixed;
+  top: 3%;
   left: 20px;
   width: 120px;
   transform: translateY(-50%);
@@ -135,8 +201,8 @@ button.eduText, button.projText, button.webText{
 }
 
 .container {
-	width: 80%;
-	margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 header::after {
@@ -189,6 +255,7 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+  z
 }
 
 .sidenav {
@@ -212,7 +279,7 @@ nav a:hover::before {
   display: block;
   border-radius: 10px;
   transition-duration: 0.5s;
-  
+
 }
 
 .sidenav a:hover {
@@ -226,7 +293,12 @@ nav a:hover::before {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
 
 }
