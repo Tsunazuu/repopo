@@ -57,6 +57,13 @@ p {
   padding-bottom: 20px;
 }
 
+.mail-edit {
+  text-align: center;
+  font-size: 30px;
+  font-family: Montserrat;
+  padding-bottom: 20px;
+}
+
 .query-text {
   text-align: center;
   font-size: 25px;
@@ -83,7 +90,6 @@ header {
 }
 
 .container-one {
-  display: flex;
   position: relative;
   left: 100px;
   padding: 200px;
@@ -255,7 +261,6 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
-  z
 }
 
 .sidenav {
@@ -292,13 +297,112 @@ nav a:hover::before {
   padding: 0px 10px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
+@media only screen and (max-width: 400px) {
 
+  .sidenav{
+    width: 100%;
+    margin-top: 0px;
+  }
   .sidenav a {
-    font-size: 18px;
+   float: left;
+   color: #000000;
+   text-align: center;
+   text-decoration: none;
+
+   padding-left: 2%;
   }
 
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .container-one {
+    padding: 0px;
+    left: -20px;
+    bottom: -50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+  
+  }
+  
+  .container-two {
+    padding: 0px;
+    left: -20px;
+    bottom: -130px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+  }
+  
+  .container-three {
+    padding: 0px;
+    left: -20px;
+    bottom: -220px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+  
+  }
+
+  .edubutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .projText {
+    padding:0px;
+    margin-top: -280px;
+    margin-right: 37px;
+    text-align: center;
+  }
+
+  .webText{
+    padding:0px;
+    margin-top: -280px;
+    margin-left: 55px;
+    text-align: center;
+  }
+
+  .eduText{
+    padding:0px;
+    margin-top: -280px;
+    margin-left: 30px;
+    text-align: center;
+
+  }
+
+  h1.headerpos {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  
+  h2.headerpos {
+    padding-bottom: 50px;
+  }
+  
+  h3.headerpos {
+    padding-bottom: 60px;
+  }
+  
+  .ty-edit{
+    padding-top: 200px;
+  }
+
+
+  body{
+    text-align: center;
+    width: 150%;
+  }
+
+  .stext{
+    font-size: 15px;
+  }
 }
