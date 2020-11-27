@@ -124,3 +124,7 @@ be able to consider hiring after looking at my website.
     Acknowledgements:
 
         https://glenncatteeuw.com/ -> Inspiration
+
+    AbodeXD link:
+
+    https://xd.adobe.com/view/14d540e1-b7a4-4a08-7321-9f54d87b90fa-62e4/
