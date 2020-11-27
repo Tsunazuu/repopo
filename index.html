@@ -6,7 +6,7 @@
 
   <title>About Me</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> <!-- Links for fonts -->
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
@@ -14,12 +14,16 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet"> <!-- Links for fonts -->
+
+  <link rel="stylesheet" type="text/css" href="style.css" /> <!-- Link for CSS file -->
 
 </head>
 <header>
 
-  <div class="sidenav">
+  <div class="sidenav"> <!-- Side navigation bar -->
     <a href="#aboutme_nav">About Me</a>
     <a href="#education_nav">Education</a>
     <a href="#projects_nav">Projects</a>
@@ -27,7 +31,7 @@
     <a href="#contact_nav">Contact Me</a>
   </div>
 
-  <a id="aboutme_nav"></a>
+  <a id="aboutme_nav"></a> <!-- Nav bar anchor -->
   <h1 class="headerpos">Hi, I am Aaron.<br></h1>
 
   <h2 class="headerpos"><u>About Me</u></h2>
@@ -43,30 +47,30 @@
     <form>
 
       <a id="education_nav"></a>
-      <div class=container-one>
+      <div class=container-one> <!-- flexbox for first link (education) -->
 
-        <div class="expanding"></div>
+        <div class="expanding"></div> <!-- to move words when cursor moves over them -->
 
         <input type="image" src="Images/educationB&W.jpg" class="edubutton" formaction="education.html"
-          value="Education">
-        <button class="eduText" type=submit formaction="education.html">EDUCATION</button>
+          value="Education"> <!-- image for education flexbox -->
+        <button class="eduText" type=submit formaction="education.html">EDUCATION</button> <!-- words and button for education flexbox -->
 
       </div>
 
       <a id="projects_nav"></a>
-      <div class=container-two>
+      <div class=container-two> <!-- flexbox for second link (projects) -->
 
-        <input type="image" src="Images/projectsB&W.png" class="edubutton" formaction="projects.html" value="Projects">
-        <button class="projText" type=submit formaction="projects.html">PROJECTS</button>
+        <input type="image" src="Images/projectsB&W.png" class="edubutton" formaction="projects.html" value="Projects"> <!-- image for project flexbox -->
+        <button class="projText" type=submit formaction="projects.html">PROJECTS</button> <!-- words and button for project flexbox -->
 
       </div>
 
       <a id="website_nav"></a>
-      <div class=container-three>
+      <div class=container-three> <!-- flexbox for third link (my website) -->
 
-        <input type="image" src="Images/mywebsiteB&W.png" target="_blank" class="edubutton"
-          formaction="https://aarontanweiheng.wixsite.com/mysite" value="My Website">
-        <button class="webText" type=submit formaction="https://aarontanweiheng.wixsite.com/mysite">MY WEBSITE</button>
+        <input type="image" src="Images/mywebsiteB&W.png" target="_blank" class="edubutton" 
+          formaction="https://aarontanweiheng.wixsite.com/mysite" value="My Website"> <!-- image for my website flexbox -->
+        <button class="webText" type=submit formaction="https://aarontanweiheng.wixsite.com/mysite">MY WEBSITE</button> <!-- words and button for my website flexbox -->
 
 
       </div>
@@ -84,11 +88,11 @@
     <p class="mail-edit">aarontanweiheng@gmail.com</p>
     <div class="igdiv">
       <img src="Images/iglogo.png" class="iglogo" width=60px, height=auto> <button type="submit"
-        formaction="https://www.instagram.com/natorii._/" target="_blank" class="igbutton"> Instagram </button>
+        formaction="https://www.instagram.com/natorii._/" target="_blank" class="igbutton"> Instagram </button> <!-- words, button and logo for Instagram link -->
     </div>
     <div class="igdiv">
-      <img src="Images/linkedinlogo .jpg" class=iglogo" width=70px height=auto> <button type="submit"
-        formaction="https://www.linkedin.com/in/aaron-tan-83ba241a7/" target="_blank" class="igbutton"> LinkedIN
+      <img src="Images/linkedinlogo .jpg" class="iglogo" width=70px height=auto> <button type="submit"
+        formaction="https://www.linkedin.com/in/aaron-tan-83ba241a7/" target="_blank" class="igbutton"> LinkedIN <!-- words, button and logo for LinkedIN link -->
       </button>
     </div>
   </form>
@@ -104,17 +108,17 @@
   <form>
     <br>
     <label> Name: </label>
-    <input type="text" class="stext" placeholder="Name">
+    <input type="text" class="stext" placeholder="Name"> <!-- name and email address input box -->
     <label> Email Address: </label>
     <input type="text" class="stext" placeholder="Email Address">
     <br>
     <br>
     <label>Queries:
       <br>
-      <textarea placeholder="Queries"> </textarea>
+      <textarea placeholder="Queries"> </textarea> <!-- questions input box -->
     </label>
     <br><br>
-    <input type="submit" class="submitbtn" formaction="submit.html" value="SUBMIT">
+    <input type="submit" class="submitbtn" formaction="submit.html" value="SUBMIT"> <!-- button to submit -->
     <br><br>
   </form>
 
@@ -148,6 +152,13 @@
     font-size: 50px;
     flex-direction: row;
   }
+
+  .submitbtn {
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  border: none;
+  background: none;
+}
 
 </style>
 

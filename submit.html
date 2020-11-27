@@ -3,38 +3,55 @@
 
 <head>
     <title>Submission success</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Links for fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet"> <!-- Links for fonts -->
 </head>
 
 <header>
-    <h1 class="s-class"> Thank you! </h1>
-    <h2 class="s-class"> We will try our best to return to you as soon as possible!</h2>
     <form>
 
         <nav>
 
-            <button class="return" type=submit formaction="index.html"> RETURN </button>
+            <button class="return" type=submit formaction="index.html"> RETURN </button> <!-- button to return to main menu -->
 
         </nav>
 
     </form>
 </header>
 
-<body class=p-pos>
-    <p style="font-family:Playfair Display"> <img
-            src="https://cdn140.picsart.com/275582430040211.png?type=webp&to=min&r=1024" alt="Thank You!" width=200px
-            height=220px>
+<body class="sbt-edit">
+
+    <p> Thank you! </p>
+    <p> We will try our best to return to you as soon as possible!</p>
+    
+
+    <p> <img src="https://cdn140.picsart.com/275582430040211.png?type=webp&to=min&r=1024" alt="Thank You!" width=200px, height=220px>
+            
 </body>
 
 <style>
-    .p-pos {
+
+    body.sbt-edit{
+
         text-align: center;
+        font-family: 'Comfortaa', cursive;
+        font-size: 20px;
     }
 
-    .s-class {
-        text-align: center;
-    }
+    .return{
+    font-family: 'Comfortaa', cursive;
+    border: none;
+    background: none;
+    position: fixed;
+    top: 3%;
+    left: 20px;
+    width: 120px;
+    transform: translateY(-50%);
+    font-size: 25px;
+  }
+
 </style>
 
-
 </html>
+
